@@ -1,0 +1,95 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-user-button {
+  background-color: #4caf50;
+}
+
+.delete-user-button {
+  background-color: #b92c2c;
+  display: block;
+  margin: 0 auto;
+}
+
+.error-message {
+  color: #b92c2c;
+  margin-top: 10px;
+}
+
+.user-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.arrow {
+  cursor: pointer;
+  margin-left: 1.5rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  vertical-align: middle;
+  transform: scale(2);
+  border-color: #ffed66;
+
+  border-width: 5px;
+}
+
+.ascending {
+  border-width: 0 5px 8px 5px;
+  border-color: transparent transparent #000 transparent;
+}
+
+.descending {
+  border-width: 8px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+}
